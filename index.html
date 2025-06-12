@@ -1,14 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Live Excel Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .container {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      max-width: 90%;
+      margin: auto;
+    }
+    iframe {
+      width: 100%;
+      height: 745px;
+      border: none;
+    }
+    @media (max-width: 768px) {
+      iframe {
+        height: 600px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h2>Dashboard (Live Excel Data)</h2>
-
-  <iframe width="100%" height="800" frameborder="0" scrolling="no"
-    src="https://celcomo365-my.sharepoint.com/personal/azwanienatasya_celcomdigi_com/_layouts/15/Doc.aspx?sourcedoc={0d209a0c-d5af-4924-af40-5882904cf99e}&action=embedview&wdAllowInteractivity=False&Item='Dashboard'!A1%3AAF32&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True">
-  </iframe>
-
-</body>
-</html>
+  <div class="container">
+    <h1>📊 Live Excel Dashboard</h1>
+    <iframe src="https://celcomo365-my.sharepoint.com/personal/azwanienatasya_celcomdigi_com/_layouts/15/Doc.aspx?sourcedoc={0d209a0c-d5af-4924-af40-5882904cf99e}&action=embedview&wdAllowInteractivity=False&Item='Dashboard'!A1%3AAF32&wdHideGridlines=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+  </div>
